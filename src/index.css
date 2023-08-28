@@ -40,7 +40,7 @@ section {
 }
 
 .grainy {
-  background-image: url(src/assets/media/noisy-dark.png);
+  background-image: url(/noisy-dark.png);
   background-repeat: repeat;
   background-position: cover;
 }
