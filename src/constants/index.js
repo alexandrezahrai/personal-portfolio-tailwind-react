@@ -39,7 +39,7 @@ export const Works = [
     tags: ["Wordpress", "PHP", "MySQL", "Alpine.js", "Tailwind"],
     link: "https://voicesofsepsis.org/",
     github: "",
-    image: "src/assets/media/voices.webp",
+    image: "/voices.webp",
   },
   {
     title: "Salem Stones",
@@ -48,7 +48,7 @@ export const Works = [
     tags: ["Wordpress", "PHP", "MySQL", "Alpine.js", "Tailwind"],
     link: "https://salemstones.com/",
     github: "",
-    image: "src/assets/media/salem.webp",
+    image: "/salem.webp",
   },
   {
     title: "Netflix Clone",
@@ -56,7 +56,7 @@ export const Works = [
       "Embark on a cinematic journey through my React and Firebase-powered Netflix Clone. This project mirrors the main video feed page of Netflix, allowing you to explore a collection of movies. By clicking on a movie, you can view its trailer and immerse yourself in the world of film. Experience the essence of streaming and trailers, all in one platform.",
     tags: ["React", "Firebase", "TMBD API"],
     link: "https://github.com/alexandrezahrai/netflix-clone",
-    image: "src/assets/media/netflix.webp",
+    image: "/netflix.webp",
   },
   {
     title: "Personal Website",
@@ -64,7 +64,7 @@ export const Works = [
       "Discover my digital footprint at my personal website/portfolio—a culmination of my creative journey in the world of web development. Designed and coded with care, this site reflects my commitment to crafting intuitive user experiences and visually captivating designs. From interactive elements to seamless navigation, my portfolio itself is a testament to the skills and passion that drive me. Explore the projects that define my path, learn about my journey, and let's connect to explore new horizons in the realm of technology and design.",
     tags: ["React", "Tailwind", "Vite"],
     link: "",
-    image: "src/assets/media/portfolio.webp",
+    image: "/portfolio.webp",
   },
 ];
 

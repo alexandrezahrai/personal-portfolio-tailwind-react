@@ -57,7 +57,7 @@ const Nav = () => {
             ))}
           </ul>
 
-          <a href="src/assets/Resume_Alexandre_Zahrai.pdf" target="_blank" className="button-pink ml-12">
+          <a href="/Resume_Alexandre_Zahrai.pdf" target="_blank" className="button-pink ml-12">
             <div>Resumé</div>
           </a>
 

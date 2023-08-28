@@ -53,7 +53,7 @@ const Footer = () => {
 
         <div className="flex mt-16 lg:mt-0">
           <a
-            href="src/assets/Resume_Alexandre_Zahrai.pdf"
+            href="/Resume_Alexandre_Zahrai.pdf"
             target="_blank"
             className="button-pink"
           >

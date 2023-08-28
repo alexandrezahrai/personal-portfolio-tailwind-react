@@ -2,17 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
 @font-face {
   font-family: "Circular";
-  src: url("src/assets/fonts/CircularStd-Book.otf") format("opentype");
+  src: url("/CircularStd-Book.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Circular-Medium";
-  src: url("src/assets/fonts/CircularStd-Medium.otf") format("opentype");
+  src: url("/CircularStd-Medium.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Circular-Light";
-  src: url("src/assets/fonts/CircularStd-Light.otf") format("opentype");
+  src: url("/CircularStd-Light.otf") format("opentype");
 }
 
 @tailwind base;
