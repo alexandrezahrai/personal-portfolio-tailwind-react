@@ -24,7 +24,7 @@ const Projects = () => {
               href={work.link}
               target="_blank"
               rel="noreferrer"
-              className="group bg-white rounded-2xl hover:rounded-none p-7 md:px-14 md:pb-[4rem] md:pt-[calc(4rem-16px)] grid grid-cols-1 lg:grid-cols-2 hover:shadow-[0_-2px_15px_rgba(0,0,0,0.1)] transition-all duration-[400ms] hover:bg-primary-pink border-t-[16px] border-primary-pink ring-[0.25px] ring-black/[0.15] relative overflow-hidden"
+              className="group bg-white rounded-2xl hover:rounded-none p-7 md:px-14 md:pb-[4rem] md:pt-[calc(4rem-16px)] grid grid-cols-1 lg:grid-cols-2 hover:shadow-[0_-2px_15px_rgba(0,0,0,0.1)] transition-all duration-[400ms] hover:bg-primary-pink border-t-[16px] border-primary-pink ring-[0.25px] ring-black/[0.15] relative overflow-hidden gap-8 lg:gap-0"
             >
               <div className="flex flex-col gap-6 w-full lg:max-w-[350px] xl:max-w-[543px]">
 
@@ -54,7 +54,7 @@ const Projects = () => {
               </div>
 
               {work.image && (
-                <div className=" mt-8 lg:mt-0 place-self-end h-full">
+                <div className="place-self-end h-full">
                   <div className="lg:max-w-[450px] lg:h-[245px] w-full h-full bg-primary-gray rounded-lg overflow-hidden ring-[0.25px] ring-black/[0.15]">
                     <img
                       src={work.image}
