@@ -59,14 +59,14 @@ svg {
 }
 
 .heading-2 {
-  @apply text-[33px] md:text-[40px] xl:text-[50px];
+  @apply text-[40px] xl:text-[50px] balance-text;
   @apply leading-none;
   @apply font-normal;
   @apply font-Syne;
 }
 
 .heading-3 {
-  @apply text-[29px];
+  @apply text-[26px] md:text-[29px];
   @apply leading-[1.2];
   @apply font-normal;
   @apply font-circular;
