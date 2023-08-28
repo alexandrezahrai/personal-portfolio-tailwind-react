@@ -46,7 +46,7 @@ export const Works = [
     description:
       "In partnership with a dedicated team, I contributed to the creation of the Salem Stones project—an online memorial showcase reflecting the brand's care, capability, and transparency. As a key contributor, I take pride in crafting a virtual space that embodies these values, underscoring our collective dedication to both meaningful remembrance and effective collaboration.",
     tags: ["Wordpress", "PHP", "MySQL", "Alpine.js", "Tailwind"],
-    link: "https://salemstones.org/",
+    link: "https://salemstones.com/",
     github: "",
     image: "src/assets/media/salem.webp",
   },

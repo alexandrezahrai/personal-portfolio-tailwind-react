@@ -13,7 +13,7 @@ const Hero = () => {
         <h1 className="heading-1 text-center">
           <em>Bilingual</em>
           <br />
-          web deveveloper.
+          web developer.
         </h1>
         <p className="text-center body-md mt-8 lg:mt-10 max-w-[600px] mx-auto balance-text">
           I'm a web developer based in Kalamazoo, Michigan. I specialize in
