@@ -36,7 +36,7 @@ export const Works = [
     title: "Voices of Sepsis",
     description:
       "A Wordpress site that allows users to share their stories of sepsis and learn more about the condition. This project was built for the Sepsis Alliance, a non-profit organization that raises awareness of sepsis and provides support to those affected by it.",
-    tags: ["Wordpress", "PHP", "MySQL", "Alpine.js", "Tailwind"],
+    tags: ["Wordpress", "PHP", "Alpine.js", "Tailwind"],
     link: "https://voicesofsepsis.org/",
     github: "",
     image: "/voices.webp",
@@ -45,7 +45,7 @@ export const Works = [
     title: "Salem Stones",
     description:
       "In partnership with a dedicated team, I contributed to the creation of the Salem Stones project—an online memorial showcase reflecting the brand's care, capability, and transparency. As a key contributor, I take pride in crafting a virtual space that embodies these values, underscoring our collective dedication to both meaningful remembrance and effective collaboration.",
-    tags: ["Wordpress", "PHP", "MySQL", "Alpine.js", "Tailwind"],
+    tags: ["Wordpress", "PHP", "Alpine.js", "Tailwind"],
     link: "https://salemstones.com/",
     github: "",
     image: "/salem.webp",
