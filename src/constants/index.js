@@ -61,7 +61,7 @@ export const Works = [
   {
     title: "Personal Website",
     description:
-      "Discover my digital footprint at my personal website/portfolio—a culmination of my creative journey in the world of web development. Designed and coded with care, this site reflects my commitment to crafting intuitive user experiences and visually captivating designs. From interactive elements to seamless navigation, my portfolio itself is a testament to the skills and passion that drive me. Explore the projects that define my path, learn about my journey, and let's connect to explore new horizons in the realm of technology and design.",
+      "Explore my personal website/portfolio to uncover my digital footprint—a showcase of my creative journey in web development. Carefully designed and coded, this site exemplifies my dedication to user-friendly experiences and captivating designs. From interactive elements to smooth navigation, my portfolio demonstrates my skills and passion. Discover defining projects, my journey, and let's connect to explore new tech and design horizons.",
     tags: ["React", "Tailwind", "Vite"],
     link: "https://github.com/alexandrezahrai/vite-personal-portfolio",
     image: "/portfolio.webp",
