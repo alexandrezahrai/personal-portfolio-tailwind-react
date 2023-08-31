@@ -22,6 +22,7 @@
 /* Scaffolding */
 body {
   @apply font-circular-light text-primary-black;
+  @apply leading-[1.6];
 }
 
 section {
@@ -73,20 +74,17 @@ svg {
 }
 
 .body-md {
-  @apply text-[17px] xl:text-[20px];
-  @apply leading-[1.4];
+  @apply text-[18px] xl:text-[20px];
   @apply font-light;
 }
 
 .body-base {
   @apply text-[17px];
-  @apply leading-[1.4];
   @apply font-light;
 }
 
 .body-sm {
   @apply text-[14px];
-  @apply leading-[1.4];
   @apply font-light;
 }
 
