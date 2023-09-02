@@ -1,5 +1,6 @@
 import { Bio as bio, Socials } from "../constants";
 import { Logo } from "../assets/media/svg/index.js";
+import Button from "../components/Button";
 
 const Footer = () => {
   return (
@@ -51,15 +52,13 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="flex mt-16 lg:mt-0">
-          <a
-            href="/Resume_Alexandre_Zahrai.pdf"
-            target="_blank"
-            className="button-pink"
-          >
-            <div>Resumé</div>
-          </a>
-        </div>
+        <Button
+          text="Resumé"
+          className={"mt-16 lg:mt-0"}
+          buttonType="button-pink"
+          href="/Resume_Alexandre_Zahrai.pdf"
+          target={"_blank"}
+        />
       </div>
 
       <div className="text-sm balance-text font-Syne w-full text-center mt-32">

@@ -1,11 +1,10 @@
+import Heading from "../components/Heading";
 import { Tools } from "../constants";
 
 const Skills = () => {
   return (
     <div className="container mx-auto">
-      <h1 className="heading-2 max-w-[350px] lg:max-w-[500px] text-left">
-        So, what can I do?
-      </h1>
+      <Heading heading="So what can I do?" />
 
       <hr className="mt-4 mb-12 border-t-[0.5px] border-primary-black" />
 
