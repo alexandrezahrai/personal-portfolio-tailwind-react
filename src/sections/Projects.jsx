@@ -7,7 +7,7 @@ const Projects = () => {
     <div className="container mx-auto">
       <Heading heading="Some projects I've worked on..." />
 
-      <hr className="mt-4 mb-12 border-t-[0.5px] border-primary-black" />
+      <hr className="mt-4 mb-12 border-t border-transparent" />
 
       <ProjectCard />
     </div>

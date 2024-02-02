@@ -13,10 +13,14 @@ import figmaLogo from "./icon--figma.svg";
 import wooLogo from "./icon--woocommerce.svg";
 import tailwindLogo from "./icon--tailwind.svg";
 import wordpressLogo from "./icon--wordpress.svg";
+import vscodeLogo from "./icon--vscode.svg";
+import sanityLogo from "./icon--sanity.svg";
+import nextLogo from "./icon--nextjs.svg";
 import { Arrow } from "./arrow.jsx";
 import { Logo } from "./logo.jsx";
 import { Linkedin } from "./linkedin.jsx";
 import { Github } from "./github.jsx";
+import { Chevron } from "./chevron";
 
 export {
   burgerIcon,
@@ -34,8 +38,12 @@ export {
   wooLogo,
   tailwindLogo,
   wordpressLogo,
+  vscodeLogo,
+  sanityLogo,
+  nextLogo,
   Arrow,
   Logo,
   Linkedin,
   Github,
+  Chevron,
 };
