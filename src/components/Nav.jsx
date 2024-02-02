@@ -1,45 +1,32 @@
-import { useState, useEffect } from "react";
-import { debounce } from "../utilities/helpers";
 import { NavLinks } from "../constants";
 import { Logo } from "../assets/media/svg/index.js";
 import Button from "./Button";
 
 const Nav = () => {
-  const [prevScrollPos, setPrevScrollPos] = useState(0);
-  const [visible, setVisible] = useState(true);
+  var prevScrollpos = window.scrollY;
 
-  const handleScroll = debounce(() => {
-    const currentScrollPos = window.scrollY;
-
-    setVisible(
-      (prevScrollPos > currentScrollPos &&
-        prevScrollPos - currentScrollPos > 20) ||
-        currentScrollPos < 10
-    );
-
-    setPrevScrollPos(currentScrollPos);
-  }, 100);
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, [prevScrollPos, visible, handleScroll]);
-
-  const navbarStyles = {
-    transition: "top 0.2s",
+  window.onscroll = function () {
+    var currentScrollPos = window.scrollY;
+    if (currentScrollPos <= 100) {
+      document.getElementById("navbar").style.top = "0px";
+    } else if (prevScrollpos > currentScrollPos && currentScrollPos > 0) {
+      document.getElementById("navbar").style.top = "0";
+    } else {
+      document.getElementById("navbar").style.top = "-200px";
+    }
+    prevScrollpos = currentScrollPos;
   };
 
   return (
     <header
-      style={{ ...navbarStyles, top: visible ? "0" : "-90px" }}
-      className="fixed w-full z-[1001] bg-primary-black top-0 shadow-[0_-2px_15px_rgba(0,0,0,0.1)] grainy"
+      id="navbar"
+      className="fixed w-full z-[1001] bg-none top-0 shadow-[0_-2px_15px_rgba(0,0,0,0.1)] border-b border-b-[hsla(0,0%,100%,.08)] transition-[top] duration-[400ms] ease-in-out"
     >
-      <div className="py-5 flex items-center justify-between max-w-[1600px] mx-auto px-[17px] md:px-6 lg:px-[36px] text-white">
+      <div className="py-5 flex items-center justify-between container mx-auto text-white">
         <a
           href="/"
           alt="logo"
-          className="block w-[40px] h-[40px] hover:text-primary-yellow transition-colors duration-200"
+          className="block w-[40px] h-[40px] hover:text-[#3360ff] focus:text-[#3360ff] transition-colors duration-200"
         >
           <span className="sr-only">Logo</span>
           <Logo />
@@ -50,7 +37,7 @@ const Nav = () => {
               <li key={item.label}>
                 <a
                   href={item.href}
-                  className="hover:text-primary-yellow focus:text-primary-yellow transition-colors duration-150 body-base"
+                  className="hover:text-[#3360ff] focus:text-[#3360ff] transition-colors duration-150 body-base"
                 >
                   {item.label}
                 </a>
@@ -59,19 +46,19 @@ const Nav = () => {
           </ul>
 
           <Button
-            text="Resumé"
+            text="Contact"
             className={"ml-12"}
-            buttonType="button-pink"
-            href="/Resume_Alexandre_Zahrai.pdf"
-            target={"_blank"}
+            buttonType="button-glass"
+            href="#contact"
+            target={""}
           />
 
           <Button
-            text="Contact"
+            text="Resumé"
             className={"ml-3 lg:ml-6"}
-            buttonType="button-yellow"
-            href="#contact"
-            target={""}
+            buttonType="button-blue"
+            href="/Resume_Alexandre_Zahrai.pdf"
+            target={"_blank"}
           />
         </nav>
       </div>

@@ -1,5 +1,6 @@
 import {
-  alpineLogo,
+  sanityLogo,
+  nextLogo,
   cssLogo,
   htmlLogo,
   jsLogo,
@@ -9,11 +10,11 @@ import {
   nodeLogo,
   gitLogo,
   figmaLogo,
-  wooLogo,
   tailwindLogo,
   wordpressLogo,
   Linkedin,
   Github,
+  vscodeLogo,
 } from "../assets/media/svg/index.js";
 
 export const NavLinks = [
@@ -83,20 +84,11 @@ export const Bio = {
 
 export const Tools = [
   {
-    name: "HTML",
-    image: htmlLogo,
-    color: "#E44D26",
+    name: "Next.js",
+    image: nextLogo,
   },
   {
-    name: "CSS",
-    image: cssLogo,
-  },
-  {
-    name: "JavaScript",
-    image: jsLogo,
-  },
-  {
-    name: "React",
+    name: "React.js",
     image: reactLogo,
   },
   {
@@ -104,16 +96,12 @@ export const Tools = [
     image: tailwindLogo,
   },
   {
-    name: "Alpine.js",
-    image: alpineLogo,
+    name: "Sanity",
+    image: sanityLogo,
   },
   {
     name: "Wordpress",
     image: wordpressLogo,
-  },
-  {
-    name: "WooCommerce",
-    image: wooLogo,
   },
   {
     name: "PHP",
@@ -135,12 +123,24 @@ export const Tools = [
     name: "Node.js",
     image: nodeLogo,
   },
+  {
+    name: "VS Code",
+    image: vscodeLogo,
+  },
+  {
+    name: "JavaScript",
+    image: jsLogo,
+  },
+  {
+    name: "HTML",
+    image: htmlLogo,
+    color: "#E44D26",
+  },
+  {
+    name: "CSS",
+    image: cssLogo,
+  },
 ];
-
-// export const Socials = {
-//   linkedin: "https://www.linkedin.com/in/alexandre-zahrai/",
-//   github: "https://github.com/alexandrezahrai",
-// };
 
 export const Socials = [
   {

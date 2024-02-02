@@ -4,7 +4,7 @@ const Heading = ({ heading, className }) => {
   return (
     <>
       <h1
-        className={`heading-2 max-w-[350px] lg:max-w-[500px] text-left ${className}`}
+        className={`heading-1 mx-auto text-center balance-text max-w-[900px] ${className}`}
       >
         {heading}
       </h1>
