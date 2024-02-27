@@ -34,6 +34,22 @@ export const NavLinks = [
 
 export const Works = [
   {
+    title: "Bellevue International",
+    description:
+      "Designed and developed a high-performance marketing website with Next.js, Sanity CMS, and Tailwind CSS. Delved into advanced concepts like routing and server-side rendering, optimizing for exceptional performance and SEO. The result is a seamlessly responsive user experience that excels in both speed and discoverability.",
+    tags: ["Next.js", "Sanity CMS", "Tailwind"],
+    link: "https://www.bellevue-intl.com/",
+    image: "/bellevue-intl.webp",
+  },
+  {
+    title: "Personal Website",
+    description:
+      "Explore my personal website/portfolio to uncover my digital footprint—a showcase of my creative journey in web development. Carefully designed and coded, this site exemplifies my dedication to user-friendly experiences and captivating designs. From interactive elements to smooth navigation, my portfolio demonstrates my skills and passion. Discover defining projects, my journey, and let's connect to explore new tech and design horizons.",
+    tags: ["React", "Tailwind", "Vite"],
+    link: "https://github.com/alexandrezahrai/vite-personal-portfolio",
+    image: "/portfolio.webp",
+  },
+  {
     title: "Voices of Sepsis",
     description:
       "A Wordpress site that allows users to share their stories of sepsis and learn more about the condition. This project was built for the Sepsis Alliance, a non-profit organization that raises awareness of sepsis and provides support to those affected by it.",
@@ -50,22 +66,6 @@ export const Works = [
     link: "https://salemstones.com/",
     github: "",
     image: "/salem.webp",
-  },
-  {
-    title: "Netflix Clone",
-    description:
-      "Embark on a cinematic journey through my React and Firebase-powered Netflix Clone. This project mirrors the main video feed page of Netflix, allowing you to explore a collection of movies. By clicking on a movie, you can view its trailer and immerse yourself in the world of film. Experience the essence of streaming and trailers, all in one platform.",
-    tags: ["React", "Firebase", "TMBD API"],
-    link: "https://github.com/alexandrezahrai/netflix-clone",
-    image: "/netflix.webp",
-  },
-  {
-    title: "Personal Website",
-    description:
-      "Explore my personal website/portfolio to uncover my digital footprint—a showcase of my creative journey in web development. Carefully designed and coded, this site exemplifies my dedication to user-friendly experiences and captivating designs. From interactive elements to smooth navigation, my portfolio demonstrates my skills and passion. Discover defining projects, my journey, and let's connect to explore new tech and design horizons.",
-    tags: ["React", "Tailwind", "Vite"],
-    link: "https://github.com/alexandrezahrai/vite-personal-portfolio",
-    image: "/portfolio.webp",
   },
 ];
 
