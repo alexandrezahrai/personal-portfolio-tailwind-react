@@ -42,7 +42,7 @@ const ProjectCard = () => {
 
             {work.image && (
               <div className="place-self-end h-full">
-                <div className="image-wrapper lg:max-w-[450px] lg:h-[245px] w-full h-full bg-primary-gray rounded-lg overflow-hidden ring-1 ring-[rgba(255,255,255,0.05)]">
+                <div className="image-wrapper lg:max-w-[450px] lg:h-[245px] w-full h-full bg-primary-gray rounded-lg overflow-hidden border border-[#171727]">
                   <img
                     src={work.image}
                     alt={work.title}
