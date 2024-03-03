@@ -16,6 +16,7 @@ import wordpressLogo from "./icon--wordpress.svg";
 import vscodeLogo from "./icon--vscode.svg";
 import sanityLogo from "./icon--sanity.svg";
 import nextLogo from "./icon--nextjs.svg";
+import typescriptLogo from "./icon--typescript.svg";
 import { Arrow } from "./arrow.jsx";
 import { Logo } from "./logo.jsx";
 import { Linkedin } from "./linkedin.jsx";
@@ -41,6 +42,7 @@ export {
   vscodeLogo,
   sanityLogo,
   nextLogo,
+  typescriptLogo,
   Arrow,
   Logo,
   Linkedin,

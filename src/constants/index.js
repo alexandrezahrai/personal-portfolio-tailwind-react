@@ -14,7 +14,7 @@ import {
   wordpressLogo,
   Linkedin,
   Github,
-  vscodeLogo,
+  typescriptLogo,
 } from "../assets/media/svg/index.js";
 
 export const NavLinks = [
@@ -124,8 +124,8 @@ export const Tools = [
     image: nodeLogo,
   },
   {
-    name: "VS Code",
-    image: vscodeLogo,
+    name: "Typescript",
+    image: typescriptLogo,
   },
   {
     name: "JavaScript",
