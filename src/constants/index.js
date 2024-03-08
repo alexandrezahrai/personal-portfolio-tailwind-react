@@ -50,13 +50,13 @@ export const Works = [
     image: "/portfolio.webp",
   },
   {
-    title: "Voices of Sepsis",
+    title: "Besa",
     description:
-      "A Wordpress site that allows users to share their stories of sepsis and learn more about the condition. This project was built for the Sepsis Alliance, a non-profit organization that raises awareness of sepsis and provides support to those affected by it.",
+      "A Wordpress site built for Besa, a nonprofit headquartered in Columbus, committed to catalyzing a surge in civic involvement that uplifts the entire community.",
     tags: ["Wordpress", "PHP", "Alpine.js", "Tailwind"],
-    link: "https://voicesofsepsis.org/",
+    link: "https://besa.org/",
     github: "",
-    image: "/voices.webp",
+    image: "/besa.webp",
   },
   {
     title: "Salem Stones",
